@@ -1,7 +1,7 @@
 .homebackground {
-    background-image: url('../assets/img/backgroundpotter.jpg');
+    background-image: url('../assets/img/potterlightback.jpg');
     background-position: top right;
-    background-size: cover;
+    /* background-size: cover; */
 }
 
 img {
@@ -12,12 +12,12 @@ img {
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     color: black;
 }
 
 li {
-    font-size: 15px;
+    font-size: 20px;
     font-style: italic;
     font-weight: normal;
     color: black;
@@ -42,4 +42,26 @@ a:visited {
     color: maroon;
 }
 
+.header {
+    background-color: tan;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
 
+.leftmenu {
+    background-color: #e6e6e6;
+    width: 200px;
+    padding: 20px;
+    float: left;
+}
+
+.mainbody {
+    padding: 20px;
+    margin-left: 220px;
+    text-indent: 2%;
+}
+
+.bottomlink {
+    text-align: left;
+}
